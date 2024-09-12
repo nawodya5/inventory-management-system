@@ -8,7 +8,8 @@ Install Dependencies
 
 Open a terminal in the project directory.
 Run the following command to install Node.js dependencies:
-npm install
+
+    npm install
 
 Build Assets (Optional)
 If the project doesn't work properly after installation, run the following command to build assets:
@@ -22,7 +23,7 @@ Update the database configuration (DB_DATABASE, DB_USERNAME, DB_PASSWORD) to mat
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=your_database_name
+DB_DATABASE=ims
 DB_USERNAME=your_database_username
 DB_PASSWORD=your_database_password
 
@@ -30,13 +31,13 @@ Migrate the Database
 
 Run the following command to create the necessary tables in your database:
 
-php artisan migrate
+    php artisan migrate
 
 Run the Application
 
 Start the server with:
 
-php artisan serve
+    php artisan serve
 
 Visit http://127.0.0.1:8000 in your browser to access the application.
 
